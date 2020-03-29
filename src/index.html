@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no, email=no">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="apple-mobile-web-app-title" content="Coral">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0096ff">
+  <!-- <link rel="apple-touch-startup-image" href="/startup.png"> -->
+  <meta name="Alipay:title" content="">
+  <meta name="Alipay:imgUrl" content="">
+  <meta name="Alipay:desc" content="">
+  <title>Coral</title>
+
+  <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap&text=0123456789" rel="stylesheet"> -->
+</head>
+<body>
+  <div id="app"></div>
+  <script>window.setCurTime = function(data) { window.curTime = data.time * 1000 }</script>
+  <script src="//cdn.bootcss.com/react/16.10.2/umd/react.production.min.js"></script>
+  <script src="//cdn.bootcss.com/react-dom/16.10.2/umd/react-dom.production.min.js"></script>
+  <script src="//cdn.bootcss.com/react-router-dom/5.1.2/react-router-dom.min.js"></script>
+  <script src="//t.alicdn.com/t/gettime?callback=setCurTime"></script>
+
+  <script src="//polyfill.alicdn.com/polyfill.js?features=es6,es2017,es2018,es2010,fetch,Promise,Promise.prototype.finally,RegeneratorRuntime"></script>
+  <script src="./index.tsx"></script>
+</body>
+
+</html>
